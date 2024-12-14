@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 
 import phones.views
+from phones.views import show_catalog, show_product
 
 urlpatterns = [
     path('admin/', admin.site.urls),
